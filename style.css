@@ -1,18 +1,62 @@
-div {
-     background-image: url(Joias Villa.jpg);
-     border::content
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0,
+  padding:0,
+  box-sizing: border-box;
 }
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  h1 {
-    font-size: 40px;
-  }
+
+header, div, h1 {
   
-  h2 {
-    font-size: 30px;
-  }
+  background-image: url(Joias Villa.jpg);
+  padding:50px,
+  text-aling: center,
+  font-size: 30px
   
-  p {
-    font-size: 14px;
+}
+
+nav ul{
+  padding: 10px;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  padding: 10px;
+  background-color: rgb(238, 184, 118);
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+
+nav `{
+  display:flex;
+  flex-direction: none;
+  background-color: aquamarine;
+  }
+  nav a {
+    color:black
+    padding: 14px;
+    text-decoration: none;
+    }
+  .row {
+    display:flex
+    flex-wrop: wrop;
+  }  
+  aside{
+    flex:70%
+    background-color:
+    padding:20px;
+  }
+  footer{
+    padding:10%;
+    text-aling:center;
+    background-color: rgb(61, 42, 165);
+
+    @media screen {
+      
+    }
+
   }
