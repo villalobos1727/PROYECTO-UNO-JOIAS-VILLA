@@ -9,20 +9,33 @@
 
 </head>
 <body>
+  <header>
 	<!-- Revisar porque no funciona el codigo de colocar el logo como fondo de pagina-->
 
 
 	<div> 
-    <img src ="/Joias Villa.jpg" alt "Logo del Sitio" width 200px, heigth 200px ;
+    <img src="/Joias Villa.jpg" alt "Logo del Sitio" width 200px, heigth 200px <br>;
 	<h1>JOIAS VILLA</h1> <br>
 	<small> complaciendo sus gustos </small>
 	</div>
+  </header>
 
 
-  <nav>
+  <nav id="main-menu">
     <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Productos</a></li>
+        <li><a href="#">Redes Sociales</a>
+          <ul>
+            <li> 
+              <a href="https.//Instagram.com/@Joias Villa"></a>
+            </li>
+            <li>
+              <a href="https.Facebook.com/Joias Villa"></a>
+            </li>
+            <li>
+              <a href="https.tick tock.com/Joias Villa"></a>
+            </li>
+          </ul>
         <li><a href="#">Sobre nosotros</a></li>
         <li class="pull-right"><a href="#">Contactar</a></li>
     </ul>
@@ -61,24 +74,38 @@
 	</nav>
 </div>
 <main> 
-  <div class="row">
+ 
   <aside>
-    <h2> NUESTRA COLECCION</h2>
-    <img src = "collar esmeralda.jpg" alt "Collar Verde" width 20px,  heigth 20px;<br>
-    <p>
-      El color verde en las piedras preciosas es la representación 
-      más clara de la gran variedad de colores que pueden adquirir las piedras preciosas. 
-      Aunque seguramente, cuando pienses en una piedra verde preciosa te venga a la mente una de las piedras verdes más 
-      representativas: la esmeralda.</p>
-    <img src ="collar Ojo turco.jpg"   alt "Collar con P. de ojo Turco" width 20px,  heigth 20px;<br>
-    <p>El ojo turco se usa como amuleto protector contra la envidia, la mala onda y el mal de ojo. La simbología de este amuleto 
-      en forma de ojo tiene que ver con creencias antiguas de Babilonia y Egipto. En la antigüedad
-       se creía que los sentimientos negativos de las personas se transmitían por medio de los ojo.</p>
-    <img src ="Conjunto 2.jpg" alt "Conjunto collar y pulsera tonos azulados" width 20px, heigth 20px, <br>
-    <p>El cuarzo azul simboliza la concentración, la tranquilidad y la calma, además de mejorar la comunicación 
-      con otras personas. Por ello, este cuarzo es ideal para disminuir el estrés y llevar un mejor control de 
-      las emociones</p>
-    
+    <div class ="widget">
+      <h3>Iniciar Sesion</h3>
+
+      <form>
+        <input type ="email" nome "email" placeholder="email">
+        <input type ="password" nome "password" placeholder="password">
+        <input type ="submit" value="entrar"
+      </form>
+    </div>
+    <div class ="widget">
+      <h3>Colecciones Existentes</h3>
+        <ul>
+          <li>
+            <a href ="#" "Coleccion Pedreria" </li>
+          <li>
+            <a href ="#" "Coleccion Caballeros" </li>
+          <li>
+            <a href ="#" "Coleccion Zarcillos" </li>
+          <li>
+            <a href ="#" "Coleccion Diges" </li>
+          <li>
+            <a href ="#" "Accesorios variados" </li>
+        </ul>
+      </div>
+      <div class ="widget">
+        <h3>Frase del dia</h3>
+        <blockquote>
+          Dad crédito a las obras y no a las palabras
+        </blockquote>
+
     
     
     
@@ -86,7 +113,23 @@
   
   <section>
     <h2>Otro titulo</h2>
-
+    <div class="row" "col-md-4">
+      <h2> NUESTRA COLECCION</h2>
+      <img src = "collar esmeralda.jpg" alt "Collar Verde" width 20px,  heigth 20px;<br>
+      <p>
+        El color verde en las piedras preciosas es la representación 
+        más clara de la gran variedad de colores que pueden adquirir las piedras preciosas. 
+        Aunque seguramente, cuando pienses en una piedra verde preciosa te venga a la mente una de las piedras verdes más 
+        representativas: la esmeralda.</p>
+      <img src ="collar Ojo turco.jpg"   alt "Collar con P. de ojo Turco" width 20px,  heigth 20px;<br>
+      <p>El ojo turco se usa como amuleto protector contra la envidia, la mala onda y el mal de ojo. La simbología de este amuleto 
+        en forma de ojo tiene que ver con creencias antiguas de Babilonia y Egipto. En la antigüedad
+         se creía que los sentimientos negativos de las personas se transmitían por medio de los ojo.</p>
+      <img src ="Conjunto 2.jpg" alt "Conjunto collar y pulsera tonos azulados" width 20px, heigth 20px, <br>
+      <p>El cuarzo azul simboliza la concentración, la tranquilidad y la calma, además de mejorar la comunicación 
+        con otras personas. Por ello, este cuarzo es ideal para disminuir el estrés y llevar un mejor control de 
+        las emociones</p>
+      <img src ="Conjunto Arcoiris.jpg" alt "Collar de varios colores",    
   </section>
   </div>
 </main>
