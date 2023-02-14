@@ -12,6 +12,6 @@
 
     <script src="Scripts/cep.js"></script>
     
-    <title>JOIAS VILLA</title>
+    <title>VILLALOBOS JOALHERIA</title>
   </head>
   <body>

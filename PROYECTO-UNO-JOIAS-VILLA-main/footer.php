@@ -14,7 +14,6 @@
           <ul class="navbar-nav mr-auto">
             <li class="navbar-item"><a class="nav-link" href="#">Facebook</a></li>
             <li class="navbar-item"><a class="nav-link" href="#">Instagram</a></li>
-            <li class="navbar-item"><a class="nav-link" href="#">tick-tock</a></li>
             <li class="navbar-item"><a class="nav-link" href="#">whatsapp</a></li>
             <li class="navbar-item"><a class="nav-link" href="#">Local</a></li>
           </ul>
